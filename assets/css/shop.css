@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.container-fluid {
+  padding: 0;
+}
+.custom-card {
+  margin: 0 auto; /* Centers the card horizontally */
+}
+@media (max-width: 800px) {
+  .custom-card {
+    max-width: 18rem;
+    margin: 0 auto; /* Centers the card horizontally */
+  }
+}
+.card-title,
+.card-text {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: large;
+}
+.card-text {
+  font-size: larger;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sortButton {
+  background-color: #071220;
+  color: #fff;
+  border: none;
+  width: 200px;
+  height: 45px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.sortButton:hover {
+  background-color: #404040;
+  border: none;
+}
+a.sortButton {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+a.sortButton:active {
+  background-color: #404040;
+  border: none;
+}
